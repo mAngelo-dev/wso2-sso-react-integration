@@ -1,7 +1,7 @@
 
 # WSO2 Identity Server no React
 
-Nesse repositório você irá aprender o básico para criar um SSO com o WSO2 Identity Server no React utilizando a biblioteca: [Asgardeo Auth React SDK](https://www.npmjs.com/package/@asgardeo/auth-react)
+Nesse repositório você irá ver o básico para criar um SSO com o WSO2 Identity Server no React utilizando a biblioteca: [Asgardeo Auth React SDK](https://www.npmjs.com/package/@asgardeo/auth-react)
 
 
 
