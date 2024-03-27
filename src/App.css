@@ -1,38 +1,69 @@
-.App {
+/* Estilos para o botão de login */
+.login-button {
+  background-color: #4CAF50; /* Cor de fundo */
+  color: white; /* Cor do texto */
+  padding: 10px 20px; /* Espaçamento interno */
+  border: none; /* Sem borda */
+  border-radius: 5px; /* Borda arredondada */
+  cursor: pointer; /* Cursor do mouse */
+  font-size: 16px; /* Tamanho da fonte */
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.info-box {
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.info-box h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.info-box h3 {
+  font-size: 18px;
+  color: #666;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.logout-button {
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+  background-color: #d32f2f;
+}
+
+.paragraph {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #0056b3;
 }
