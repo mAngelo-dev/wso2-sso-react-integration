@@ -10,6 +10,7 @@ Nesse repositório você irá ver o básico para criar um SSO com o WSO2 Identit
 
 Para isso será necessário instalar o WSO2 Identity Server (v. 6.1.0) e realizar a configuração de um novo service provider e habilitar o **OAuth/OpenID Connect Configuration** em **Inbound Authentication Configuration**.
 Certifique-se que as configurações estão semelhantes a essas: 
+
 ![Configs](resources/img/configs.png)
 
 Isso irá fazer a aplicação rodar como o esperado.
