@@ -1,5 +1,5 @@
 {
-    "clientID": "mQFeVgyyQmDFu0WQHGIohQOND9Ia",
+    "clientID": "<CLIENT_ID>",
     "baseUrl": "https://localhost:9443",
     "signInRedirectURL": "https://localhost:3000",
     "signOutRedirectURL": "https://localhost:3000",
